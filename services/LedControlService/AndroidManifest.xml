@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ledcontrol.ledcontrolservice">
+
+    <permission android:name="com.ledcontrol.LED_CONTROL_PERM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".LedControlService"
+            android:permission="com.ledcontrol.LED_CONTROL_PERM"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
