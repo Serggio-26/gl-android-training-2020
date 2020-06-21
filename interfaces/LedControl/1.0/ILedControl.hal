@@ -1,0 +1,7 @@
+package vendor.gl_serggio_26.hardware.LedControl@1.0;
+
+interface ILedControlHW {
+    enul leds : int {led1 = 1, led2, lwd3, led4};
+
+    iLedControlHW(leds ledId, bool stateOn) generates (int result);
+};

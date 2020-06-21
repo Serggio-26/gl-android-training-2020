@@ -1,0 +1,17 @@
+hidl_package_root {
+    name: "vendor.gl_serggio_26.hardware",
+    path: "vendor/gl-serggio-26/hardware",
+}
+
+hidl_interface {
+    name: "vendor.gl_serggio_26.hardware.LedControl@1.0",
+    root: "vendor.gl_serggio_26.hardware",
+    srcs: [
+        "ILedControl.hal",
+    ],
+    interfaces: [
+        "android.hidl.base@1.0",
+    ],
+    gen_java: true,
+    gen_java_constants: true,
+}
