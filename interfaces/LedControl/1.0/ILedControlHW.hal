@@ -1,0 +1,9 @@
+// Hal
+
+package vendor.gls.hardware.LedControl@1.0;
+
+interface ILedControlHW {
+
+    iLedControlHW(leds_t ledId, ledState_t state) generates (result_t result);
+};
+

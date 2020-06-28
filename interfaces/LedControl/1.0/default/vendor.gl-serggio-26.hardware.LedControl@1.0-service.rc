@@ -1,6 +1,0 @@
-service vendor.gl-serggio-26.hardware.LedControl-1-0 /vendor/bin/hw/endor.gl-serggio-26.hardware.LedControl@1.0-service
-    interface endor.gl-serggio-26.hardware.LedControl@1.0::ILedControlHW default
-    class hal
-    user system
-    group system
-    

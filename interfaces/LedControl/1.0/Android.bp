@@ -1,17 +1,21 @@
-hidl_package_root {
-    name: "vendor.gl_serggio_26.hardware",
-    path: "vendor/gl-serggio-26/hardware",
-}
+// Something is not OK
 
 hidl_interface {
-    name: "vendor.gl_serggio_26.hardware.LedControl@1.0",
-    root: "vendor.gl_serggio_26.hardware",
+    name: "vendor.gls.hardware.LedControl@1.0",
+    root: "vendor.gls.hardware",
     srcs: [
-        "ILedControl.hal",
+        "ILedControlHW.hal",
+	    "types.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
     ],
+    types: [
+        "leds_t",
+        "ledState_t",
+        "result_t",
+    ],
     gen_java: true,
     gen_java_constants: true,
 }
+

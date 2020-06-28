@@ -1,0 +1,8 @@
+service vendor.gls.hardware.LedControl-1-0 /system/vendor/bin/hw/vendor.gls.hardware.LedControl@1.0-service
+    interface vendor.gls.hardware.LedControl@1.0::ILedControlHW default
+    class hal
+    user vendor_led_control
+    group vendor_led_control system 
+    oneshot
+    disabled
+    

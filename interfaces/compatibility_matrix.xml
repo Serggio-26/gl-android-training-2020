@@ -1,10 +1,11 @@
 <compatibility-matrix version="1.0" type="device">
     <hal format="hidl" optional="false">
-        <name>vendor.gl-serggio-26.hardware.LedControl</name>
+        <name>vendor.gls.hardware.LedControl</name>
         <version>1.0</version>
         <interface>
-            <name>ILedControl</name>
+            <name>ILedControlHW</name>
             <interface>default</interface>
         </interface>
     </hal>
 </compatibility-matrix>
+

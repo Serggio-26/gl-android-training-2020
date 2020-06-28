@@ -1,0 +1,24 @@
+// Hal types
+
+package vendor.gls.hardware.LedControl@1.0;
+
+@export
+enum leds_t : uint8_t {
+	LED1 = 1, 
+	LED2 = 2, 
+	LED3 = 3, 
+	LED4 = 4,
+};
+
+@export
+enum ledState_t : uint8_t {
+     ON,
+     OFF,
+};
+
+@export
+enum result_t : uint8_t {
+     RES_OK,
+     RES_ERR,
+};
+
