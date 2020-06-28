@@ -16,6 +16,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_STATIC_ANDROID_LIBRARIES := \
 	android-support-v7-appcompat 
 
-
+LOCAL_STATIC_JAVA_LIBRARIES += \
+	vendor.gls.hardware.LedControl-V1.0-java
 
 include $(BUILD_PACKAGE)
