@@ -1,0 +1,7 @@
+type ledcontrol_app, domain, coredomain;
+
+app_domain(ledcontrol_app);
+
+allow ledcontrol_app activity_service:service_manager find;
+allow ledcontrol_app hal_led_control_hwservice:hwservice_manager { find };
+allow ledcontrol_app hal_led_control_default:binder { call };
