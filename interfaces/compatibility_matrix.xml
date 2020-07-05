@@ -4,7 +4,7 @@
         <version>1.0</version>
         <interface>
             <name>ILedControlHW</name>
-            <interface>default</interface>
+            <instance>default</instance>
         </interface>
     </hal>
 </compatibility-matrix>

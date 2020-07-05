@@ -1,5 +1,3 @@
-// Something is not OK
-
 hidl_interface {
     name: "vendor.gls.hardware.LedControl@1.0",
     root: "vendor.gls.hardware",
