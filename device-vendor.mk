@@ -15,3 +15,8 @@ TARGET_FS_CONFIG_GEN += \
 PRODUCT_PACKAGES += \
 	LedControlService \
 	LedControlApplication \
+
+
+BOARD_SEPOLICY_DIRS += \
+	vendor/gls/sepolicy
+
