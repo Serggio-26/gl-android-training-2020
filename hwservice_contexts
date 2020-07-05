@@ -1,0 +1,2 @@
+vendor.gls.hardware.LedControl::ILedControlHW u:object_r:hal_led_control_hwservice:s0
+

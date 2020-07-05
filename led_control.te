@@ -1,0 +1,7 @@
+type hal_led_control_default, domain, halserverdomain;
+
+init_daemon_domain(hal_led_control_default)
+
+allow hal_led_control_default hidl_base_hwservice:hwservice_manager { add };
+allow hal_led_control_default hal_led_control_hwservice:hwservice_manager { find add };
+
